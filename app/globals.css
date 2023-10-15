@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.hero-bg-image {
+    background-image: url('/hero.png'); /* Replace 'path-to-your-image.jpg' with the actual path to your image */
+    background-size: contain; /* Set the background image size to cover the element */
+    background-position: center; /* Center the background image */
+  }
